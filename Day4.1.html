@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var text = "Bangladesh";
+        var len = text.length;
+        document.write("Number of Characters = " + len);
+
+
+        var text1 = prompt ("Enter Your name : ");
+        document.write( "</br >" + "Number of given Characters = " + text1.length);
+
+
+        var text2 = text1;
+        document.write ( "</br>" + text2.charAt(0));
+        text2  = text2.toUpperCase();
+        document.write("</br>" + text2);
+        text2  = text2.toLowerCase();
+        document.write("</br>" + text2);
+        
+
+        var text3 = " is a beautifull country." ;
+        document.write ("</br>" + text.concat(text3));
+
+
+        var text4 = text.slice(2, 5);
+        document.write("</br>" + text4);
+        
+    </Script>
+</body>
+</html>
